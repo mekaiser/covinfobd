@@ -1,0 +1,86 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.blah {
+  border-radius: 20px;
+}
+.dropDown {
+  margin: auto;
+  text-align: center;
+}
+.yellowColor {
+  background-color: #f2f4c0;
+}
+.shadow img {
+  width: 37%;
+  margin: auto;
+}
+.traffic {
+  color: black;
+  text-decoration: none;
+}
+.traffic:hover {
+  color: black;
+}
+.categories {
+  width: 66%;
+}
+.button-color {
+  background-color: #9ddfd3;
+  color: black;
+}
+.logo img {
+  height: 30px;
+}
+.redColor {
+  background-color: rgba(162, 10, 10, 0.6);
+  /* opacity: .3; */
+}
+.fonts {
+  font-weight: 700;
+  margin: 0 auto;
+}
+
+.card {
+  margin: 0 auto;
+  float: none;
+}
+li {
+  list-style: none;
+}
+#footer {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.last-footer {
+  padding-right: 20px;
+}
+
+.line-gap {
+  padding-left: 14px;
+}
+
+@media only screen and (max-width: 648px) {
+  .last-footer {
+    padding-right: 10px;
+  }
+}
+
+/* .ul li{
+  text-align: center;
+} */
+
+/*KAISER'S PART*/
+.card-round-border {
+  border: none;
+  border-radius: 20px;
+}
+.card-photo {
+  width: 16rem;
+  height: 9rem;
+  margin: 10px auto 5px auto;
+  border-radius: 20px;
+  background-color: #f1f1f1;
+}
