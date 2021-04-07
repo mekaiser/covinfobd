@@ -1,1 +1,1 @@
-# covinfobd
+https://mekaiser.github.io/covinfobd/
