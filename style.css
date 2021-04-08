@@ -54,9 +54,6 @@ li {
   margin-left: auto;
   margin-right: auto;
 }
-.last-footer {
-  padding-right: 20px;
-}
 
 .line-gap {
   padding-left: 14px;
@@ -79,4 +76,7 @@ li {
   margin: 10px auto 5px auto;
   border-radius: 20px;
   background-color: #f1f1f1;
+}
+.zero-margin {
+  margin: 0;
 }
