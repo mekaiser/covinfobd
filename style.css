@@ -1,7 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-
 .blah {
   border-radius: 20px;
 }
@@ -15,6 +14,14 @@ body {
 .shadow img {
   width: 40%;
   margin: auto;
+}
+.footer-background {
+  background-color: black;
+  color: white;
+}
+.footer-background a {
+  text-decoration: none;
+  color: white;
 }
 .traffic {
   color: black;
