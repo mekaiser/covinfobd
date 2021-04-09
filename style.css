@@ -80,3 +80,22 @@ li {
 .zero-margin {
   margin: 0;
 }
+.zero-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+.dropdown-menu-width-1 {
+  width: 29%;
+  padding: 0;
+  text-align: center;
+}
+.dropdown-menu-width-2 {
+  width: 17%;
+  padding: 0;
+  text-align: center;
+}
+.dropdown-menu-width-3 {
+  width: 22%;
+  padding: 0;
+  text-align: center;
+}
