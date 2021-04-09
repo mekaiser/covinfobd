@@ -1,368 +1,554 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon"> 
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
-    <link rel="stylesheet" href="style.css">
-     
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <title>COVINFOBD</title>
-</head>
-<body>
-
-  <!-- nav -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-      <a class="navbar-brand logo" href="#"><img src="images/covinfo-logo.png" alt="logoName"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
-        <div class="navbar-nav ms-auto">
-          <a class="nav-link text-white" href="#">About Us</a>
-          <a class="nav-link" href="#"></a>
-          <a class="nav-link" href="#"></a>
-        </div>
-      </div>
-    </div>
-  </nav>
-
-  <!-- section  -->
-  <section>
-    <div class="container overflow-hidden mt-5 categories">
-      <div class="row gx-3 mt-5">
-        <div class="col my-2">
-          <div class="p-2 blah  redColor d-flex justify-content-around align-items-center">
-            <h5 class=" my-2 ">Death in 24hrs: 7000</h5>
-          </div>
-        </div>
-        <div class="col my-2">
-          <div class="p-2 blah  yellowColor d-flex justify-content-around align-items-center">
-            <h5 class=" my-2">Infected in 24hrs: 7000</h5>
-          </div>
-        </div>
-        <div class="col my-2">
-          <div class="p-2 blah  bg-success d-flex justify-content-around align-items-center">
-            <h5 class=" my-2 text-white">Recovered in 24hrs: 2000</h5>
+  </head>
+  <body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand logo" href="#"
+          ><img src="images/covinfo-logo.png" alt="logoName"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link text-white" href="#">About Us</a>
+            <a class="nav-link" href="#"></a>
+            <a class="nav-link" href="#"></a>
           </div>
         </div>
       </div>
-    </div>
-    </div>
-  </section>
+    </nav>
 
-
-  <!-- dropdown  -->
-  <section>
-    <div class="container mt-4 mb-1 dropDown zero-padding">
-      <div class="btn-group p-2 dropdown-menu-width-1">
-        <button class="btn button-color dropdown-toggle btn-font pt-2 pb-2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Covid Related Facebook Groups
-        </button>
-        <ul class="dropdown-menu">
-          <li>
-            <a class="dropdown-item" target="_blank" href="https://www.facebook.com/groups/PlasmaBankofBangladesh/">
-              Plasma Bank of Bangladesh
-            </a>
-          </li>
-          <li>
-            <a class="dropdown-item" target="_blank" href="https://www.facebook.com/groups/505408746806858/">
-              COVID-19 LIVE UPDATE
-            </a>
-          </li>
-        </ul>
+    <!-- section  -->
+    <section>
+      <div class="container pt-5">
+        <div class="row mt-5">
+          <div class="col-md-4 py-3">
+            <div class="card text-center redColor shadow" style="width: 25rem">
+              <div class="card-body">
+                <h3
+                  class="card-title color-red survival-rate-font-style poppins-semibold"
+                >
+                  86
+                </h3>
+                <p class="card-text poppins-semibold" style="font-size: 1.2rem">
+                  Death in 24hrs
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3">
+            <div class="card text-center blueColor shadow" style="width: 25rem">
+              <div class="card-body">
+                <h3
+                  class="card-title color-blue survival-rate-font-style poppins-semibold"
+                >
+                  7456
+                </h3>
+                <p class="card-text poppins-semibold" style="font-size: 1.2rem">
+                  Infected in 24hrs
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3">
+            <div
+              class="card text-center greenColor shadow"
+              style="width: 25rem"
+            >
+              <div class="card-body">
+                <h3
+                  class="card-title color-green survival-rate-font-style poppins-semibold"
+                >
+                  4567
+                </h3>
+                <p class="card-text poppins-semibold" style="font-size: 1.2rem">
+                  Recovered in 24hrs
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+    </section>
 
-      <div class="btn-group p-2 dropdown-menu-width-1">
-        <button class="btn button-color dropdown-toggle btn-font pt-2 pb-2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Blood Related Facebook Groups
-        </button>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" target="_blank" href="https://www.facebook.com/groups/255314818868314/">Plasma
-              Bank Of Covid Survivors</a></li>
-          <li><a class="dropdown-item" target="_blank" href="https://www.facebook.com/groups/BloodFighters/">Blood
-              Fighters</a></li>
-          <li><a class="dropdown-item" target="_blank"
-              href="https://www.facebook.com/groups/blood.donation.national.family/">Blood Donation National Family</a>
-          </li>
-          <li><a class="dropdown-item" target="_blank" href="https://www.facebook.com/groups/ctg.blood.bank/">Chittagong
-              Blood Bank</a></li>
-        </ul>
+    <!-- dropdown  -->
+    <section>
+      <div class="container mt-4 mb-1 dropDown zero-padding">
+        <div class="btn-group p-2 dropdown-menu-width-1">
+          <button
+            class="btn button-color dropdown-toggle btn-font pt-2 pb-2"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Covid Related Facebook Groups
+          </button>
+          <ul class="dropdown-menu">
+            <li>
+              <a
+                class="dropdown-item"
+                target="_blank"
+                href="https://www.facebook.com/groups/PlasmaBankofBangladesh/"
+              >
+                Plasma Bank of Bangladesh
+              </a>
+            </li>
+            <li>
+              <a
+                class="dropdown-item"
+                target="_blank"
+                href="https://www.facebook.com/groups/505408746806858/"
+              >
+                COVID-19 LIVE UPDATE
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="btn-group p-2 dropdown-menu-width-1">
+          <button
+            class="btn button-color dropdown-toggle btn-font pt-2 pb-2"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Blood Related Facebook Groups
+          </button>
+          <ul class="dropdown-menu">
+            <li>
+              <a
+                class="dropdown-item"
+                target="_blank"
+                href="https://www.facebook.com/groups/255314818868314/"
+                >Plasma Bank Of Covid Survivors</a
+              >
+            </li>
+            <li>
+              <a
+                class="dropdown-item"
+                target="_blank"
+                href="https://www.facebook.com/groups/BloodFighters/"
+                >Blood Fighters</a
+              >
+            </li>
+            <li>
+              <a
+                class="dropdown-item"
+                target="_blank"
+                href="https://www.facebook.com/groups/blood.donation.national.family/"
+                >Blood Donation National Family</a
+              >
+            </li>
+            <li>
+              <a
+                class="dropdown-item"
+                target="_blank"
+                href="https://www.facebook.com/groups/ctg.blood.bank/"
+                >Chittagong Blood Bank</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="btn-group p-2 dropdown-menu-width-2">
+          <button
+            class="btn button-color dropdown-toggle btn-font pt-2 pb-2"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Blood Banks
+          </button>
+          <ul class="dropdown-menu">
+            <li>
+              <a
+                class="dropdown-item"
+                target="_blank"
+                href="https://bdrcs.org/donate-blood/"
+              >
+                Bangladesh Red Crescent Society
+              </a>
+            </li>
+            <li>
+              <a
+                class="dropdown-item"
+                target="_blank"
+                href="https://dmp.gov.bd/police-blood-bank/"
+              >
+                DMP Blood Bank
+              </a>
+            </li>
+            <li>
+              <a
+                class="dropdown-item"
+                target="_blank"
+                href="http://blood.quantummethod.org.bd/en"
+              >
+                Quantum Foundation Blood Bank
+              </a>
+            </li>
+            <li>
+              <a
+                class="dropdown-item"
+                target="_blank"
+                href="https://www.ibnsinatrust.com/Blood_Bank.php"
+              >
+                Ibn Sina Hospital Blood Bank
+              </a>
+            </li>
+            <li>
+              <a
+                class="dropdown-item"
+                target="_blank"
+                href="https://www.evercarebd.com/blood-bank/"
+              >
+                Evercare Blood Bank
+              </a>
+            </li>
+            <li>
+              <a
+                class="dropdown-item"
+                target="_blank"
+                href="https://www.bdspecializedhospital.com/department/bshl-blood-bank"
+              >
+                Bangladesh Specialized Hospital Ltd.
+              </a>
+            </li>
+            <li>
+              <a
+                class="dropdown-item"
+                target="_blank"
+                href="https://www.uhlbd.com/services/blood-bank"
+              >
+                United Hospital Limited.
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="btn-group p-2 dropdown-menu-width-3">
+          <button
+            class="btn button-color btn-font pt-2 pb-2"
+            type="button"
+            aria-expanded="false"
+          >
+            <a
+              class="traffic"
+              target="_blank"
+              href="https://www.facebook.com/groups/TrafficAlert.BD/"
+            >
+              Traffic Update (Dhaka)
+            </a>
+          </button>
+          <ul class="dropdown-menu"></ul>
+        </div>
       </div>
+    </section>
 
-      <div class="btn-group p-2 dropdown-menu-width-2">
-        <button class="btn button-color dropdown-toggle btn-font pt-2 pb-2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Blood Banks
-        </button>
-        <ul class="dropdown-menu">
-          <li>
-            <a class="dropdown-item" target="_blank" href="https://bdrcs.org/donate-blood/">
-              Bangladesh Red Crescent Society
-            </a>
-          </li>
-          <li>
-            <a class="dropdown-item" target="_blank" href="https://dmp.gov.bd/police-blood-bank/">
-              DMP Blood Bank
-            </a>
-          </li>
-          <li>
-            <a class="dropdown-item" target="_blank" href="http://blood.quantummethod.org.bd/en">
-              Quantum Foundation Blood Bank
-            </a>
-          </li>
-          <li>
-            <a class="dropdown-item" target="_blank" href="https://www.ibnsinatrust.com/Blood_Bank.php">
-              Ibn Sina Hospital Blood Bank
-            </a>
-          </li>
-          <li>
-            <a class="dropdown-item" target="_blank" href="https://www.evercarebd.com/blood-bank/">
-              Evercare Blood Bank
-            </a>
-          </li>
-          <li>
-            <a class="dropdown-item" target="_blank"
-              href="https://www.bdspecializedhospital.com/department/bshl-blood-bank">
-              Bangladesh Specialized Hospital Ltd.
-            </a>
-          </li>
-          <li>
-            <a class="dropdown-item" target="_blank" href="https://www.uhlbd.com/services/blood-bank">
-              United Hospital Limited.
-            </a>
-          </li>
-        </ul>
-      </div>
-      
-      <div class="btn-group p-2 dropdown-menu-width-3">
-        <button class="btn button-color btn-font pt-2 pb-2" type="button" aria-expanded="false">
-          <a class="traffic" target="_blank" href="https://www.facebook.com/groups/TrafficAlert.BD/">
-            Traffic Update (Dhaka)
-          </a>
-        </button>
-        <ul class="dropdown-menu">
-        </ul>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- cards -->
-  <section>
-    <div class="container mt-3 px-2">
-      <div class="row row-cols-md-2 row-cols-lg-4 my-4">
-        <div class="col mb-3">
-          <div class="card card-body h-100 shadow card-round-border" style="width: 19rem">
-            <div class="card-photo d-flex justify-content-center">      
+    <!-- cards -->
+    <section>
+      <div class="container mt-3 px-2">
+        <div class="row row-cols-md-2 row-cols-lg-4 my-4">
+          <div class="col mb-3">
+            <div
+              class="card card-body h-100 shadow card-round-border"
+              style="width: 19rem"
+            >
+              <div class="card-photo d-flex justify-content-center">
                 <img
                   src="images/Cross/bus_c.png"
                   class="card-img-top"
                   alt="..."
-                />           
-            </div>
-            <div class="card-body">
-              <h5 class="fonts card-title text-center mb-2">Public Transport</h5>
-              <p class="text-center">
-              <small>✘ Not allowed</small><br>
-              <small>✘ Ride sharing not allowed</small><br>
-              <small>✔ Private transport allowed</small><br>
-              <small>✔ Office vehicles allowed</small>
-              </p>
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="fonts card-title text-center mb-2">
+                  Public Transport
+                </h5>
+                <p class="text-center">
+                  <small>✘ Not allowed</small><br />
+                  <small>✘ Ride sharing not allowed</small><br />
+                  <small>✔ Private transport allowed</small><br />
+                  <small>✔ Office vehicles allowed</small>
+                </p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="col mb-3">
-          <div class="card card-body h-100 shadow card-round-border" style="width: 19rem">
-            <div class="card-photo d-flex justify-content-center">      
+          <div class="col mb-3">
+            <div
+              class="card card-body h-100 shadow card-round-border"
+              style="width: 19rem"
+            >
+              <div class="card-photo d-flex justify-content-center">
                 <img
                   src="images/Limited/bazar_l.png"
                   class="card-img-top"
                   alt="..."
-                />           
-            </div>
-            <div class="card-body">
-              <h5 class="fonts card-title text-center mb-2">Bazar/ Grocery</h5>
-              <p class="text-center">
-              <small>✔ Open bazars allowed</small><br>
-              <small>✔ Local shops allowed</small><br>
-              <small>✱ Time Frame: 8am-4pm</small>
-              </p>
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="fonts card-title text-center mb-2">
+                  Bazar/ Grocery
+                </h5>
+                <p class="text-center">
+                  <small>✔ Open bazars allowed</small><br />
+                  <small>✔ Local shops allowed</small><br />
+                  <small>✱ Time Frame: 8am-4pm</small>
+                </p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="col mb-3">
-          <div class="card card-body h-100 shadow card-round-border" style="width: 19rem">
-            <div class="card-photo d-flex justify-content-center">      
+          <div class="col mb-3">
+            <div
+              class="card card-body h-100 shadow card-round-border"
+              style="width: 19rem"
+            >
+              <div class="card-photo d-flex justify-content-center">
                 <img
                   src="images/Cross/hangout_c.png"
                   class="card-img-top"
                   alt="..."
-                />           
-            </div>
-            <div class="card-body">
-              <h5 class="fonts card-title text-center mb-2">Public Hangout</h5>
-              <p class="text-center">
-              <small>✘ Not allowed</small><br>
-              <small>✱ Recommended Distance: 6ft</small><br>
-              <small>✔ Only emergency movement allowed after 10pm</small>
-              </p>
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="fonts card-title text-center mb-2">
+                  Public Hangout
+                </h5>
+                <p class="text-center">
+                  <small>✘ Not allowed</small><br />
+                  <small>✱ Recommended Distance: 6ft</small><br />
+                  <small>✔ Only emergency movement allowed after 10pm</small>
+                </p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="col mb-3">
-          <div class="card card-body h-100 shadow card-round-border" style="width: 19rem">
-            <div class="card-photo d-flex justify-content-center">      
+          <div class="col mb-3">
+            <div
+              class="card card-body h-100 shadow card-round-border"
+              style="width: 19rem"
+            >
+              <div class="card-photo d-flex justify-content-center">
                 <img
                   src="images/Limited/bank_l.png"
                   class="card-img-top"
                   alt="..."
-                />           
-            </div>
-            <div class="card-body">
-              <h5 class="fonts card-title text-center mb-2">Bank</h5>
-              <p class="text-center">
-              <small>✱ Services are limited</small><br>
-              <small>✱ Contact Nearest Branch</small><br>
-              <small>✱ Follow government guidelines</small>
-              </p>
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="fonts card-title text-center mb-2">Bank</h5>
+                <p class="text-center">
+                  <small>✱ Services are limited</small><br />
+                  <small>✱ Contact Nearest Branch</small><br />
+                  <small>✱ Follow government guidelines</small>
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="row row-cols-md-2 row-cols-lg-4 my-4 ">
-        <div class="col mb-3">
-          <div class="card card-body h-100 shadow card-round-border" style="width: 19rem">
-            <div class="card-photo d-flex justify-content-center">      
+        <div class="row row-cols-md-2 row-cols-lg-4 my-4">
+          <div class="col mb-3">
+            <div
+              class="card card-body h-100 shadow card-round-border"
+              style="width: 19rem"
+            >
+              <div class="card-photo d-flex justify-content-center">
                 <img
                   src="images/Tick/medicine_g.png"
                   class="card-img-top"
                   alt="..."
-                />           
-            </div>
-            <div class="card-body">
-              <h5 class="fonts card-title text-center mb-2">Pharmacy</h5>
-              <p class="text-center">
-              <small>✔ No restriction at dispensaries</small><br>
-              <small>✔ Allowed 24x7</small><br>
-              <small>✔ Home Deliveries allowed</small>
-              </p>
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="fonts card-title text-center mb-2">Pharmacy</h5>
+                <p class="text-center">
+                  <small>✔ No restriction at dispensaries</small><br />
+                  <small>✔ Allowed 24x7</small><br />
+                  <small>✔ Home Deliveries allowed</small>
+                </p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="col mb-3">
-          <div class="card card-body h-100 shadow card-round-border" style="width: 19rem">
-            <div class="card-photo d-flex justify-content-center">      
+          <div class="col mb-3">
+            <div
+              class="card card-body h-100 shadow card-round-border"
+              style="width: 19rem"
+            >
+              <div class="card-photo d-flex justify-content-center">
                 <img
                   src="images/Cross/shopping_c.png"
                   class="card-img-top"
                   alt="..."
-                />           
-            </div>
-            <div class="card-body">
-              <h5 class="fonts card-title text-center mb-2">Shopping Mall/ Market</h5>
-              <p class="text-center">
-              <small>✘ Not allowed</small><br>
-              <small>✔ Online shopping allowed</small>
-              </p>
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="fonts card-title text-center mb-2">
+                  Shopping Mall/ Market
+                </h5>
+                <p class="text-center">
+                  <small>✘ Not allowed</small><br />
+                  <small>✔ Online shopping allowed</small>
+                </p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="col mb-3">
-          <div class="card card-body h-100 shadow card-round-border" style="width: 19rem">
-            <div class="card-photo d-flex justify-content-center">      
+          <div class="col mb-3">
+            <div
+              class="card card-body h-100 shadow card-round-border"
+              style="width: 19rem"
+            >
+              <div class="card-photo d-flex justify-content-center">
                 <img
                   src="images/Limited/hotel_l.png"
                   class="card-img-top"
                   alt="..."
-                />           
-            </div>
-            <div class="card-body">
-              <h5 class="fonts card-title text-center mb-2">Restaurant</h5>
-              <p class="text-center">
-              <small>✘ Dine-in not allowed</small><br>
-              <small>✔ Take-out allowed</small><br>
-              <small>✔ Online deliveries allowed</small>
-              </p>
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="fonts card-title text-center mb-2">Restaurant</h5>
+                <p class="text-center">
+                  <small>✘ Dine-in not allowed</small><br />
+                  <small>✔ Take-out allowed</small><br />
+                  <small>✔ Online deliveries allowed</small>
+                </p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="col mb-3">
-          <div class="card card-body h-100 shadow card-round-border" style="width: 19rem">
-            <div class="card-photo d-flex justify-content-center">      
+          <div class="col mb-3">
+            <div
+              class="card card-body h-100 shadow card-round-border"
+              style="width: 19rem"
+            >
+              <div class="card-photo d-flex justify-content-center">
                 <img
                   src="images/Limited/govt_l.png"
                   class="card-img-top"
                   alt="..."
-                />           
-            </div>
-            <div class="card-body">
-              <h5 class="fonts card-title text-center mb-2">Government Services</h5>
-              <p class="text-center">
-              <small>✱ Govt services are limited</small><br>
-              <small>✱ Contact prior to visit</small><br>
-              <small>✱ In emergency, dial 999</small>
-              </p>
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="fonts card-title text-center mb-2">
+                  Government Services
+                </h5>
+                <p class="text-center">
+                  <small>✱ Govt services are limited</small><br />
+                  <small>✱ Contact prior to visit</small><br />
+                  <small>✱ In emergency, dial 999</small>
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <footer >
-    <!-- Microsoft Azure -->
-    <div id="footer" class="d-sm-block d-md-flex d-lg-flex d-xl-flex d-xxl-flex justify-content-center align-content-center mt-5 mb-2">
-      <div>
-        <p class="ms-1 me-1 zero-margin">Powered by </p>
-      </div>
-      <div class="justify-content-center">
-        <img class="ms-1 me-1" src="images/Azure.png" style="height: 20px;" alt="">
-      </div>
-    </div>
-
-    <!-- MSLA BUP -->
-    <div id="footer" class="d-sm-block d-md-flex d-lg-flex d-xl-flex d-xxl-flex justify-content-center align-content-center mb-4">
-      <div>
-        <p class="zero-margin">Initiative by</p>
-      </div>
-      <div class="d-flex justify-content-center align-content-center">
+    <footer>
+      <!-- Microsoft Azure -->
+      <div
+        id="footer"
+        class="d-sm-block d-md-flex d-lg-flex d-xl-flex d-xxl-flex justify-content-center align-content-center mt-5 mb-2"
+      >
         <div>
-          <img class="me-1 ms-1" src="images/mlsa-icon.ico" style="height: 20px;" alt="">
+          <p class="ms-1 me-1 zero-margin">Powered by</p>
         </div>
-        <div>
-          <p class="mlsa-text zero-margin">Microsoft Learn Student Ambassadors BUP</p> 
+        <div class="justify-content-center">
+          <img
+            class="ms-1 me-1"
+            src="images/Azure.png"
+            style="height: 20px"
+            alt=""
+          />
         </div>
       </div>
-    </div>
 
-    <!-- References -->
-    <div class="d-flex">
-      <p>References:</p>
+      <!-- MSLA BUP -->
+      <div
+        id="footer"
+        class="d-sm-block d-md-flex d-lg-flex d-xl-flex d-xxl-flex justify-content-center align-content-center mb-4"
+      >
+        <div>
+          <p class="zero-margin">Initiative by</p>
+        </div>
+        <div class="d-flex justify-content-center align-content-center">
+          <div>
+            <img
+              class="me-1 ms-1"
+              src="images/mlsa-icon.ico"
+              style="height: 20px"
+              alt=""
+            />
+          </div>
+          <div>
+            <p class="mlsa-text zero-margin">
+              Microsoft Learn Student Ambassadors BUP
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- References -->
+      <div class="d-flex">
+        <p>References:</p>
         <ul>
-          <li> <a target="_blank" href="https://corona.gov.bd/">Reference 01</a> </li>
-          <li> <a target="_blank" href="https://corona.gov.bd/storage/press-releases/March2021/1zoK4InT5iU6kPtcaVlZ.pdf">Reference 02</a> </li>
+          <li>
+            <a target="_blank" href="https://corona.gov.bd/">Reference 01</a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://corona.gov.bd/storage/press-releases/March2021/1zoK4InT5iU6kPtcaVlZ.pdf"
+              >Reference 02</a
+            >
+          </li>
         </ul>
-    </div>
-  </footer>
+      </div>
+    </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
-    integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
-    integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
-    crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+      integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+      integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
