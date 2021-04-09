@@ -1,1 +1,1 @@
-https://mekaiser.github.io/covinfobd/
+https://mekaiser.github.io/covinfobd/index.html
