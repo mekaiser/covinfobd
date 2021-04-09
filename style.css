@@ -139,3 +139,10 @@ li {
 }
 
 /* About us */
+.about-us-border-rad img {
+  border-radius: 20px;
+}
+.about-us-title-font {
+  font-weight: 600;
+  font-size: 1.8rem;
+}
