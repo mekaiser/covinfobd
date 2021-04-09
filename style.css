@@ -11,7 +11,7 @@ body {
 .yellowColor {
   background-color: #f2f4c0;
 }
-.shadow img {
+.card-photo-percent-size {
   width: 40%;
   margin: auto;
 }
@@ -137,3 +137,5 @@ li {
   padding: 0;
   text-align: center;
 }
+
+/* About us */
