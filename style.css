@@ -27,8 +27,11 @@ body {
   width: 66%;
 }
 .button-color {
-  background-color: #9ddfd3;
+  background-color: #f9c86e;
   color: black;
+}
+.btn-font {
+  font-weight: 500;
 }
 .logo img {
   height: 30px;
