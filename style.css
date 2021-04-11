@@ -98,6 +98,7 @@ li {
 }
 
 /*KAISER'S PART*/
+/* START */
 .card-round-border {
   border: none;
   border-radius: 20px;
@@ -199,3 +200,5 @@ li {
     width: 52rem;
   }
 }
+/*KAISER'S PART*/
+/* END */
