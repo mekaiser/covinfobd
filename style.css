@@ -1,13 +1,11 @@
+/* KAISER */
 body {
   font-family: "Poppins", sans-serif;
 }
 .blah {
   border-radius: 20px;
 }
-.dropDown {
-  margin: auto;
-  text-align: center;
-}
+
 .yellowColor {
   background-color: #f2f4c0;
 }
@@ -15,6 +13,7 @@ body {
   width: 40%;
   margin: auto;
 }
+
 .footer-background {
   background-color: #212529;
   color: white;
@@ -117,21 +116,6 @@ li {
   padding-left: 0;
   padding-right: 0;
 }
-.dropdown-menu-width-1 {
-  width: 29%;
-  padding: 0;
-  text-align: center;
-}
-.dropdown-menu-width-2 {
-  width: 17%;
-  padding: 0;
-  text-align: center;
-}
-.dropdown-menu-width-3 {
-  width: 22%;
-  padding: 0;
-  text-align: center;
-}
 
 /* About us */
 .about-us-border-rad img {
@@ -142,10 +126,23 @@ li {
   font-size: 1.8rem;
 }
 
+/* Media Queries */
 /* xm */
 @media (max-width: 575.98px) {
+  .blood-button,
+  .blood-bank-button,
+  .traffic-button,
+  .covid-button {
+    display: grid;
+  }
+  .card-width {
+    flex: none;
+  }
+  @-ms-viewport {
+    width: 320px;
+  }
   .about-us-section-style {
-    width: 26rem;
+    width: 22rem;
   }
   .about-us-border-rad img {
     display: block;
@@ -164,8 +161,17 @@ li {
 }
 /* sm */
 @media (min-width: 576px) and (max-width: 767.98px) {
+  .blood-button,
+  .blood-bank-button,
+  .traffic-button,
+  .covid-button {
+    display: grid;
+  }
+  .card-width {
+    flex: none;
+  }
   .about-us-section-style {
-    width: 32rem;
+    width: 26rem;
   }
   .about-us-border-rad img {
     display: block;
@@ -184,18 +190,68 @@ li {
 }
 /* md */
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .covid-button,
+  .blood-button,
+  .blood-bank-button,
+  .traffic-button {
+    display: grid;
+  }
+  .card-width {
+    flex: none;
+  }
   .about-us-section-style {
-    width: 45rem;
+    width: 42rem;
+  }
+  .about-us-border-rad img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .padding-left {
+    padding-left: 2.4rem;
+  }
+  .card-body h5,
+  p {
+    margin-top: 0.8rem;
+  }
+}
+/* l */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .covid-button,
+  .blood-button,
+  .blood-bank-button,
+  .traffic-button {
+    display: grid;
+  }
+  .card-column {
+    width: 50%;
+  }
+  .about-us-section-style {
+    width: 48rem;
   }
 }
 /* xl */
-@media (min-width: 992px) and (max-width: 1199.98px) {
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .covid-button,
+  .blood-button,
+  .blood-bank-button,
+  .traffic-button {
+    display: grid;
+  }
+  .card-column {
+    width: 50%;
+  }
   .about-us-section-style {
     width: 52rem;
   }
 }
 /* xxl */
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
+  .blood-button,
+  .blood-bank-button,
+  .traffic-button {
+    margin-left: 2.2rem;
+  }
   .about-us-section-style {
     width: 52rem;
   }
