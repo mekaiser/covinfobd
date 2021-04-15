@@ -5,7 +5,10 @@ body {
 .blah {
   border-radius: 20px;
 }
-
+.scl {
+  margin: auto;
+  text-align: center;
+}
 .yellowColor {
   background-color: #f2f4c0;
 }
@@ -138,6 +141,11 @@ li {
   .card-width {
     flex: none;
   }
+  .card-size,
+  .card-size-8,
+  .card-size-7 {
+    width: 19rem;
+  }
   @-ms-viewport {
     width: 320px;
   }
@@ -150,7 +158,7 @@ li {
     margin-right: auto;
   }
   .card-body h5,
-  p {
+  .card-body p {
     margin-top: 0.8rem;
     text-align: center;
   }
@@ -167,6 +175,11 @@ li {
   .covid-button {
     display: grid;
   }
+  .card-size,
+  .card-size-8,
+  .card-size-7 {
+    width: 19rem;
+  }
   .card-width {
     flex: none;
   }
@@ -179,7 +192,7 @@ li {
     margin-right: auto;
   }
   .card-body h5,
-  p {
+  .card-body p {
     margin-top: 0.8rem;
     text-align: center;
   }
@@ -202,6 +215,10 @@ li {
   .about-us-section-style {
     width: 42rem;
   }
+  /* .card-size-8,
+  .card-size-7 {
+    width: 19rem;
+  } */
   .about-us-border-rad img {
     display: block;
     margin-left: auto;
@@ -211,7 +228,7 @@ li {
     padding-left: 2.4rem;
   }
   .card-body h5,
-  p {
+  .card-body p {
     margin-top: 0.8rem;
   }
 }
@@ -223,38 +240,61 @@ li {
   .traffic-button {
     display: grid;
   }
-  .card-column {
-    width: 50%;
-  }
+  /* .card-column-1,
+  .card-column-2,
+  .card-column-3,
+  .card-column-4,
+  .card-column-5,
+  .card-column-6,
+  .card-column-7,
+  .card-column-8 {
+    width: 33%;
+  } */
   .about-us-section-style {
     width: 48rem;
   }
+  /* .card-size-8,
+  .card-size-7 {
+    width: 19rem;
+  } */
 }
-/* xl */
-@media (min-width: 1200px) and (max-width: 1399.98px) {
-  .covid-button,
-  .blood-button,
-  .blood-bank-button,
-  .traffic-button {
-    display: grid;
+  /* xl */
+  @media (min-width: 1200px) and (max-width: 1399.98px) {
+    .covid-button,
+    .blood-button,
+    .blood-bank-button,
+    .traffic-button {
+      display: grid;
+    }
+    .card-size
+     {
+      width: 19rem;
+     
+    }
+    .card-size-8,
+    .card-size-7{
+     margin-left: 1rem;
+     margin-right: 1rem;
+    }
+    
+    .about-us-section-style {
+      width: 52rem;
+    }
   }
-  .card-column {
-    width: 50%;
+  /* xxl */
+  /* done  */
+  @media (min-width: 1400px) {
+    .about-us-section-style {
+      width: 52rem;
+    }
+    .card-size ,.card-size-8,
+    .card-size-7{
+      width: 18rem;
+    }
+    .card-img{
+      width: 15rem;
+    height: 8rem;
+     
+        }
   }
-  .about-us-section-style {
-    width: 52rem;
-  }
-}
-/* xxl */
-@media (min-width: 1400px) {
-  .blood-button,
-  .blood-bank-button,
-  .traffic-button {
-    margin-left: 2.2rem;
-  }
-  .about-us-section-style {
-    width: 52rem;
-  }
-}
-/*KAISER'S PART*/
-/* END */
+
