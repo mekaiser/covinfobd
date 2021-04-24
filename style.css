@@ -258,43 +258,40 @@ li {
     width: 19rem;
   } */
 }
-  /* xl */
-  @media (min-width: 1200px) and (max-width: 1399.98px) {
-    .covid-button,
-    .blood-button,
-    .blood-bank-button,
-    .traffic-button {
-      display: grid;
-    }
-    .card-size
-     {
-      width: 19rem;
-     
-    }
-    .card-size-8,
-    .card-size-7{
-     margin-left: 1rem;
-     margin-right: 1rem;
-    }
-    
-    .about-us-section-style {
-      width: 52rem;
-    }
+/* xl */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .covid-button,
+  .blood-button,
+  .blood-bank-button,
+  .traffic-button {
+    display: grid;
   }
-  /* xxl */
-  /* done  */
-  @media (min-width: 1400px) {
-    .about-us-section-style {
-      width: 52rem;
-    }
-    .card-size ,.card-size-8,
-    .card-size-7{
-      width: 18rem;
-    }
-    .card-img{
-      width: 15rem;
-    height: 8rem;
-     
-        }
+  .card-size {
+    width: 19rem;
+  }
+  .card-size-8,
+  .card-size-7 {
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
+  .about-us-section-style {
+    width: 52rem;
+  }
+}
+/* xxl */
+/* done  */
+@media (min-width: 1400px) {
+  .about-us-section-style {
+    width: 52rem;
+  }
+  .card-size,
+  .card-size-8,
+  .card-size-7 {
+    width: 18rem;
+  }
+  .card-img {
+    width: 15rem;
+    height: 8rem;
+  }
+}
