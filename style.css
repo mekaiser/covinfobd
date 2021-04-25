@@ -16,7 +16,6 @@ body {
   width: 40%;
   margin: auto;
 }
-
 .footer-background {
   background-color: #212529;
   color: white;
@@ -74,7 +73,6 @@ body {
 .survival-rate-font-style {
   font-size: 2.5rem;
 }
-
 .fonts {
   font-weight: 700;
   margin: 0 auto;
@@ -98,9 +96,6 @@ li {
 .line-gap {
   padding-left: 14px;
 }
-
-/*KAISER'S PART*/
-/* START */
 .card-round-border {
   border: none;
   border-radius: 20px;
@@ -215,10 +210,6 @@ li {
   .about-us-section-style {
     width: 42rem;
   }
-  /* .card-size-8,
-  .card-size-7 {
-    width: 19rem;
-  } */
   .about-us-border-rad img {
     display: block;
     margin-left: auto;
@@ -240,23 +231,9 @@ li {
   .traffic-button {
     display: grid;
   }
-  /* .card-column-1,
-  .card-column-2,
-  .card-column-3,
-  .card-column-4,
-  .card-column-5,
-  .card-column-6,
-  .card-column-7,
-  .card-column-8 {
-    width: 33%;
-  } */
   .about-us-section-style {
     width: 48rem;
   }
-  /* .card-size-8,
-  .card-size-7 {
-    width: 19rem;
-  } */
 }
 /* xl */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
@@ -280,7 +257,6 @@ li {
   }
 }
 /* xxl */
-/* done  */
 @media (min-width: 1400px) {
   .about-us-section-style {
     width: 52rem;
