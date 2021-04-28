@@ -2,6 +2,12 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+.nav-item-margin-1 {
+  margin-right: 1em;
+}
+.nav-item-margin-2 {
+  margin-left: 1em;
+}
 .blah {
   border-radius: 20px;
 }
@@ -127,6 +133,12 @@ li {
 /* Media Queries */
 /* xm */
 @media (max-width: 575.98px) {
+  .nav-item-margin-1 {
+    margin-right: 0;
+  }
+  .nav-item-margin-2 {
+    margin-left: 0;
+  }
   .blood-button,
   .blood-bank-button,
   .traffic-button,
@@ -137,7 +149,6 @@ li {
     flex: none;
   }
   .card-size,
-  .card-size-8,
   .card-size-7 {
     width: 19rem;
   }
@@ -164,6 +175,12 @@ li {
 }
 /* sm */
 @media (min-width: 576px) and (max-width: 767.98px) {
+  .nav-item-margin-1 {
+    margin-right: 0;
+  }
+  .nav-item-margin-2 {
+    margin-left: 0;
+  }
   .blood-button,
   .blood-bank-button,
   .traffic-button,
@@ -171,7 +188,6 @@ li {
     display: grid;
   }
   .card-size,
-  .card-size-8,
   .card-size-7 {
     width: 19rem;
   }
@@ -198,6 +214,12 @@ li {
 }
 /* md */
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .nav-item-margin-1 {
+    margin-right: 0;
+  }
+  .nav-item-margin-2 {
+    margin-left: 0;
+  }
   .covid-button,
   .blood-button,
   .blood-bank-button,
@@ -246,10 +268,15 @@ li {
   .card-size {
     width: 19rem;
   }
-  .card-size-8,
+  .card-photo-expand-width {
+    width: 20rem;
+  }
+  .card-photo-shrink-size {
+    width: 32%;
+  }
   .card-size-7 {
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 1.8rem;
+    margin-right: 1.8rem;
   }
 
   .about-us-section-style {
@@ -262,7 +289,6 @@ li {
     width: 52rem;
   }
   .card-size,
-  .card-size-8,
   .card-size-7 {
     width: 18rem;
   }
