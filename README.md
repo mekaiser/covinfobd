@@ -1,4 +1,4 @@
-<p align="center"><img src="./assets/banner.png" /><br></p>
+<p align="center"><img src="./assets/banner.jpg" /><br></p>
 
 # COVINFOBD
 
